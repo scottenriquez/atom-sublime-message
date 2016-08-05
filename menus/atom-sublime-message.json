@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-sublime-message",
+        "command": "atom-sublime-message:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-sublime-message",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-sublime-message:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
